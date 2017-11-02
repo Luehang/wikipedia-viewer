@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head-content">
+        <h1>Wikipedia Viewer</h1>
+        <form>
+          <label for="search"></label>
+          <input type="search" name="search" placeholder="Search here..." id="search">
+          <input type="submit" value="Search" id="submit">
+        </form>
+        <div class="random">
+          <button href="https://en.wikipedia.org/wiki/Special:Random" id="random"><a href="https://en.wikipedia.org/wiki/Special:Random" id="link">Random</a></button>
+        </div>
+      </div>
+      <div class="result-grid">
+        <ul id="result-list">
+        </ul>
+      </div>
+      <div class="footer-content">
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
